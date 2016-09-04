@@ -6,7 +6,6 @@ var/const/HOP				=(1<<0)
 
 //	Security
 var/const/WARDEN			=(1<<2)
-var/const/DETECTIVE			=(1<<3)
 var/const/OFFICER			=(1<<4)
 var/const/ENGSEC			=(1<<0)
 
@@ -55,6 +54,11 @@ var/const/REGULATOR         =(1<<15)
 var/const/SETTLER         	=(1<<16)
 var/const/WASTELANDMEDIC	=(1<<17)
 var/const/RAIDER        	=(1<<18)
+
+//~~NCR~~
+var/const/NCRTROOPER        	=(1<<13)
+var/const/NCRCOMMANDER       	=(1<<14)
+var/const/RANGER			=(1<<3)
 
 var/list/assistant_occupations = list(
 	"Assistant",
@@ -124,7 +128,6 @@ var/list/civilian_positions = list(
 var/list/security_positions = list(
 //	"Head of Security",
 	"Warden",
-	"Detective",
 	"Security Officer"
 )
 
@@ -143,6 +146,12 @@ var/list/legion_positions = list(
 	"Legion Legat",
 )
 
+var/list/ncr_positions = list(
+	"NCR Commander",
+	"NCR Trooper",
+	"Ranger",
+
+)
 var/list/wasteland_positions = list(
 	"Regulator",
 	"Settler",

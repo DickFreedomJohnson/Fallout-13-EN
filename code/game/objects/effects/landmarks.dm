@@ -260,3 +260,11 @@
 
 /obj/effect/landmark/latejoin
 	name = "JoinLate"
+
+
+
+/obj/effect/landmark/start/ncr/commander
+	name = "ncr_commander"
+
+/obj/effect/landmark/start/ncr/trooper
+	name = "ncr_trooper"

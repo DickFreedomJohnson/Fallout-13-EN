@@ -38,6 +38,8 @@ var/time_last_changed_position = 0
 		"Chaplain",
 		"Overseer",
 		"Ranger",
+		"NCR Trooper",
+		"NCR Commander",
 		"Legion Recruit",
 		"Legion Decan",
 		"Legion Vexillarius",
